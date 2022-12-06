@@ -3,7 +3,7 @@ Design patterns learning and practice.
 使用IDEA打开
 ## 命名规范：
 package名：全小写，为**设计模式名**
-类名：**大驼峰命名法**，如AbstractFactoryDemo.  
+class、interface名：**大驼峰命名法**，如AbstractFactoryDemo.  
 函数名、变量名：**小驼峰命名法**，如startAbstractFactoryDemo.
 ## 书写规则：
 - 每一个设计模式对应一个package，package名与模式名保持一致.  
