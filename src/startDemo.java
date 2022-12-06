@@ -1,4 +1,4 @@
-import AbstractFactory.AbstractFactoryDemo;
+import abstractfactory.AbstractFactoryDemo;
 
 public class startDemo {
     public static void main(String[] args) {

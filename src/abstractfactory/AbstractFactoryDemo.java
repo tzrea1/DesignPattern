@@ -1,4 +1,4 @@
-package AbstractFactory;
+package abstractfactory;
 
 public class AbstractFactoryDemo {
     public static void startAbstractFactoryDemo() {
