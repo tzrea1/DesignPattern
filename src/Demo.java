@@ -2,7 +2,7 @@ import abstractfactory.AbstractFactoryDemo;
 import composite.CompositeDemo;
 import command.CommandDemo;
 
-public class startDemo {
+public class Demo {
     public static void main(String[] args) {
         //测试
         AbstractFactoryDemo.startAbstractFactoryDemo();
