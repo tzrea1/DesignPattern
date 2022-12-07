@@ -6,6 +6,7 @@ import flyweight.FlyweightDemo;
 import interpreter.InterpreterDemo;
 import memento.MementoDemo;
 import memento.MemoManager;
+import mvc.MVCDemo;
 import state.StateDemo;
 import strategy.StrategyDemo;
 
@@ -21,6 +22,6 @@ public class Demo {
         MementoDemo.startMemoDemo();
         StateDemo.startStateDemo();
         StrategyDemo.startStrategyDemo();
-
+        MVCDemo.stratMVCDemo();
     }
 }
