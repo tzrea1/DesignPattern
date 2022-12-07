@@ -1,4 +1,5 @@
 import abstractfactory.AbstractFactoryDemo;
+import chainofresponsibility.ChainOfResponsibilityDemo;
 import composite.CompositeDemo;
 import command.CommandDemo;
 import flyweight.FlyweightDemo;
@@ -11,6 +12,10 @@ public class Demo {
         CommandDemo.startCommandDemo();
         CompositeDemo.startCompositeDemo();
         FlyweightDemo.startFlyweightDemo();
+<<<<<<< HEAD
         InterpreterDemo.startInterpreterDome();
+=======
+        ChainOfResponsibilityDemo.startChainOfResponsibilityDemo();
+>>>>>>> origin/main
     }
 }
