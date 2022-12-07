@@ -2,6 +2,7 @@ import abstractfactory.AbstractFactoryDemo;
 import composite.CompositeDemo;
 import command.CommandDemo;
 import flyweight.FlyweightDemo;
+import interpreter.InterpreterDemo;
 
 public class Demo {
     public static void main(String[] args) {
@@ -10,5 +11,6 @@ public class Demo {
         CommandDemo.startCommandDemo();
         CompositeDemo.startCompositeDemo();
         FlyweightDemo.startFlyweightDemo();
+        InterpreterDemo.startInterpreterDome();
     }
 }
