@@ -3,7 +3,7 @@ package chainofresponsibility;
 import java.util.Objects;
 
 /**
- * @Description TODO:
+ * @Description TODO: 定义请求，记录请求类型、请求描述等信息
  * @Author Tzrea1
  * @Date 2022/12/7 1:17
  * @Version 1.0

@@ -29,7 +29,7 @@ public class MVCDemo {
         System.out.println("初次显示：");
         controller.updateView();
 
-        // Controller 接受到影响Bond的新信息
+        // Controller 接受到影响model的新信息
         controller.setHeartRate(HeartRate.TOOFAST);
         controller.setSleep(Sleep.LACK);
         controller.setStress(Stress.TOOMUCH);
@@ -37,7 +37,7 @@ public class MVCDemo {
         System.out.println("第一次数据更新：");
         controller.updateView();
 
-        // Controller 接受到影响Bond的新信息
+        // Controller 接受到影响model的新信息
         controller.setHeartRate(HeartRate.TOOSLOW);
         controller.setSleep(Sleep.TOOMUCH);
         controller.setStress(Stress.NORMAL);

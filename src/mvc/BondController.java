@@ -5,7 +5,7 @@ import mvc.enums.Sleep;
 import mvc.enums.Stress;
 
 /**
- * @Description TODO: 手环显示屏的Controller，控制显示信息
+ * @Description TODO: 手环的Controller，控制显示信息
  * @Author Tzrea1
  * @Date 2022/12/7 1:59
  * @Version 1.0
