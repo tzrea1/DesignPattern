@@ -8,6 +8,7 @@ public class CommandDemo {
         Athlete myPlayer =new Athlete("苏炳添") ;
         System.out.println("[ command : 执行命令 execute() ]");
         OrderCommand command = new OrderCommand(myReferee ,myPlayer);
+        command.execute();
         System.out.println("------------------------ END ------------------------");
         System.out.println("");
     }
