@@ -1,0 +1,26 @@
+Index: src/Demo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import abstractfactory.AbstractFactoryDemo;\r\nimport composite.CompositeDemo;\r\nimport command.CommandDemo;\r\n\r\npublic class Demo {\r\n    public static void main(String[] args) {\r\n        //测试\r\n        AbstractFactoryDemo.startAbstractFactoryDemo();\r\n        CommandDemo.startCommandDemo();\r\n        CompositeDemo.startCompositeDemo();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Demo.java b/src/Demo.java
+--- a/src/Demo.java	(revision 8f91ae5b137ee6f2410ac7e7c83f0d1be27304f8)
++++ b/src/Demo.java	(date 1670351790087)
+@@ -1,12 +1,12 @@
+ import abstractfactory.AbstractFactoryDemo;
+ import composite.CompositeDemo;
+ import command.CommandDemo;
++import templatemethod.TemplateMethodDemo;
+ 
+ public class Demo {
+     public static void main(String[] args) {
+         //测试
+-        AbstractFactoryDemo.startAbstractFactoryDemo();
+-        CommandDemo.startCommandDemo();
+-        CompositeDemo.startCompositeDemo();
++        //AbstractFactoryDemo.startAbstractFactoryDemo();
++        TemplateMethodDemo.startTemplateMethodDemo();
+     }
+ }
