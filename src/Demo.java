@@ -6,6 +6,8 @@ import flyweight.FlyweightDemo;
 import interpreter.InterpreterDemo;
 import memento.MementoDemo;
 import memento.MemoManager;
+import state.StateDemo;
+import strategy.StrategyDemo;
 
 public class Demo {
     public static void main(String[] args) {
@@ -17,5 +19,8 @@ public class Demo {
         InterpreterDemo.startInterpreterDome();
         ChainOfResponsibilityDemo.startChainOfResponsibilityDemo();
         MementoDemo.startMemoDemo();
+        StateDemo.startStateDemo();
+        StrategyDemo.startStrategyDemo();
+
     }
 }
