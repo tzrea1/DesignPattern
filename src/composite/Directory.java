@@ -8,7 +8,6 @@ import java.util.Iterator;
  * @Author MXY
  * @Date 2022/12/6 21:14
  **/
-
 public class Directory extends Entry {
     /**
      * 文件夹名
@@ -76,13 +75,12 @@ public class Directory extends Entry {
      **/
     @Override
     protected void printList(String prefix) {
-        System.out.println(prefix + "/" + this);
+        System.out.println(prefix + "/" + this.toString());
         Iterator it = directory.iterator();
         while(it.hasNext()) {
             Entry entry = (Entry)it.next();
             entry.printList(prefix + "/" + name);
         }
     }
-
 }
 

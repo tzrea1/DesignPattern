@@ -6,7 +6,6 @@ package composite;
  * @Date 2022/12/6 21:20
  * @Version 1.0
  **/
-
 public class File extends Entry {
     /**
      * 文件名
